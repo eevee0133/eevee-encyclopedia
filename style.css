@@ -39,3 +39,21 @@ footer {
     background-color: #8a2be2;
     color: white;
 }
+#eevee-moves, #eevee-abilities, #all-eeveelutions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.move-card, .ability-card, .eeveelution-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.eeveelution-card img {
+    width: 96px;
+    height: 96px;
+}
